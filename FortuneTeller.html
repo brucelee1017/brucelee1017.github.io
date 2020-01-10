@@ -1,0 +1,37 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+
+
+	<meta charset="UTF-8">
+	<title>Fortune Teller Function</title>  	
+	<script>	
+		var spouse  = 'Jerry';
+		var city = 'New York';
+		var jobTitle = 'Stock Broker';
+		var numKids = 6;
+
+		var fortune = 'You will be a ' + jobTitle + ' in ' + city + ', and married to ' + 
+		spouse + ' with ' + numKids + ' kids.';
+		
+		alert(fortune);
+
+		function tellFortune(jobTitle, city, spouse, numKids) {
+			var fortune = 'You will be a ' + jobTitle + ' in ' + city + ' and married to ' +
+			spouse + ' with ' + numKids + ' kids.';
+			alert(fortune);
+		}
+
+		tellFortune('Web Designer', 'Dallas', 'John', 2);
+		tellFortune('Teacher', 'San Francisco', 'Jeff', 4);
+		tellFortune('Doctor', 'Denver', 'Jason', 7);
+	</script>
+</head>
+
+<body>	
+
+
+		
+</body>
+</html>
